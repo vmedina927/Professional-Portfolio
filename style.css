@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Hero section style */
 section {
     background-color: violet;
 }
@@ -13,8 +14,10 @@ section {
     font-size: 40px;
 }
 footer {
-    height: 500px;
     background-color: blueviolet;
+    color: black;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
@@ -70,7 +73,7 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: violet;
+    background-color: black;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -79,7 +82,7 @@ p {
 }
 
 .button:hover {
-    background-color: violet;
+    background-color: lavender;
 }
 
 .button:active {
@@ -134,6 +137,14 @@ p {
     justify-content: space-around;
 }
 
+@media screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
 .project-image {
     margin-top: 25px;
     width: 250px;
@@ -143,4 +154,14 @@ p {
 hr {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: lavender;
+}
+
+a {
+    text-decoration: none;
+    color: violet;
 }
