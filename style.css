@@ -4,7 +4,6 @@ body{
 
 section {
     background-color: violet;
-    border: solid black 1px;
 }
 
 .hero {
@@ -48,6 +47,11 @@ h2 {
 p {
     margin: 0;
     font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -99,7 +103,14 @@ p {
 .sub-section {
     display: flex;
     justify-content: space-around;
-    padding: 30px;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
 }
 
 .headshot {
@@ -109,4 +120,27 @@ p {
 .headshot-container {
     display: flex;
     align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px;
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 152px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
 }
